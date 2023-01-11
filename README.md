@@ -8,6 +8,11 @@ All dependencies (Python 3) can be installed via:
 pip install -r requirements.txt
 ```
 
+## Oplatek ufal installation on top of conda base environment
+```
+conda env create --prefix ./env -f environment.yml ; conda activate ./env
+```
+
 ## Running
 - **Datasets**:
 
