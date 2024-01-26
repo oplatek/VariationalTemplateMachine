@@ -1,0 +1,14 @@
+name: moosenet
+channels:
+  - pytorch
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.6
+  # - cudatoolkit=11.3
+  - pytorch=1.1.0
+  - pip
+  - pip:
+  #   # - torchvision
+    - numpy
+    - nltk
